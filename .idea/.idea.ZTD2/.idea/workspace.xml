@@ -5,10 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6255fe5-07b6-4e4e-9218-578ba90efbf0" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/1_Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1_Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/Interface/ITimerCallback.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ZTD2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZTD2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1_Scenes/3_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1_Scenes/3_Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEventRepeat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEventRepeat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEventSpawn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEventSpawn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundSimple.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundSimple.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundSo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundSo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/ITimerCallback.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/ITimerCallback.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/Interface/ITimerCallback.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/TimerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/TimerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3_Input.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3_Input/InputSystem_Actions.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3_Input/InputSystem_Actions.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/4_So.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/4_So/Round.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/4_So/Round/Round 0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/4_So/Round/Round 0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/4_So/Round/Round 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/4_So/Round/Round 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +55,13 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3ae879ab76254b9db3f8a03d41606c481fec00/8b/43f7ce8f/UIElementsUtility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3ae879ab76254b9db3f8a03d41606c481fec00/97/b20b3068/VisualTreeBindingsUpdater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3ae879ab76254b9db3f8a03d41606c481fec00/e3/e8891282/UIEventRegistration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/Round.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/TimerSimple.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="33THMtNfsYZRxbmLUe89BAfQmOW" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -41,23 +70,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Unity 에디터에 연결.Unity 에디터에 연결.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Unity 에디터에 연결.Unity 에디터에 연결.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.54f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Source\ZTD2 -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Source\ZTD2" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -67,8 +97,19 @@
       <option name="PTY_MODE" value="Auto" />
       <method v="2" />
     </configuration>
+    <configuration name="독립실행형 플레이어" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Build/ZTD2\ZTD2.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Build\ZTD2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unity 시작" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.54f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Source\ZTD2 -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Source\ZTD2" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -78,15 +119,13 @@
       <option name="PTY_MODE" value="Auto" />
       <method v="2" />
     </configuration>
-    <configuration name="Unity 에디터에 연결" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19444">
+    <configuration name="Unity 에디터에 연결" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19444" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list>
-          <MonoRuntime />
-        </list>
+        <list />
       </option>
       <option name="selectedOptions">
         <list />
@@ -116,7 +155,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759334097346</updated>
-      <workItem from="1759334100544" duration="20518000" />
+      <workItem from="1759334100544" duration="21321000" />
+      <workItem from="1759356323918" duration="360000" />
+      <workItem from="1759357118250" duration="157000" />
+      <workItem from="1759360642590" duration="3330000" />
+      <workItem from="1759364849521" duration="2046000" />
+      <workItem from="1759423360475" duration="7984000" />
+      <workItem from="1759471162438" duration="9023000" />
+      <workItem from="1759547966239" duration="1421000" />
+      <workItem from="1759559700620" duration="20233000" />
     </task>
     <servers />
   </component>

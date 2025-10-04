@@ -4,17 +4,17 @@ using UnityEngine;
 
 public abstract class TimerBase : MonoBehaviour
 {
-    public delegate void TimeDelegate(double currentSec, double targetSec);
-
     [Header("[ Values ]")]
-    [SerializeField, Min(0)] protected double _targetSec;
-    [SerializeField, Min(0)] protected double _currentSec;
+    [SerializeField, Min(0)] protected float _targetSec;
+    [SerializeField, Min(0)] protected float _currentSec;
 
     private List<ITimerCallback> _timerCallbackList = new();
 
-    public void AddCallback(ITimerCallback timerCallback) => _timerCallbackList.Add(timerCallback);
+    public void AddCallback(ITimerCallback timerCallback) => 
+        _timerCallbackList.Add(timerCallback);
     
-    public void RemoveCallback(ITimerCallback timerCallback) => _timerCallbackList.Remove(timerCallback);
+    public void RemoveCallback(ITimerCallback timerCallback) => 
+        _timerCallbackList.Remove(timerCallback);
 
     protected void Callback(Action<ITimerCallback> callback)
     {
@@ -24,7 +24,7 @@ public abstract class TimerBase : MonoBehaviour
         }
     }
     
-    public void Begin(double targetSec)
+    public void Begin(float targetSec)
     {
         _targetSec = targetSec;
         
