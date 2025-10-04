@@ -8,19 +8,16 @@ public class UIQuoteElement : MonoBehaviour
 
     [Header("[ Values ]")]
     [SerializeField] private int _value;
-    [SerializeField] private QuoteItemSo _so;
+    [SerializeField] private QuoteSo _so;
     
-    public QuoteItemSo So => _so;
+    public QuoteSo So => _so;
     
-    public void Initialize(QuoteItemSo so)
+    public void Apply(QuoteSo so)
     {
         _so = so;
-    }
-
-    public void Apply()
-    {
-        string n = _so.DisplayName;
-        string v = _so.DefaultValue.ToString();
+        
+        string n = _so.Item.DisplayName;
+        string v = _so.SellValue.ToString();
 
         _elementText.text = $"{n} ( {v} )";
     }

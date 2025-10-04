@@ -12,6 +12,11 @@ public class Test : MonoBehaviour, ITimerCallback
         timer.AddCallback(this);
     }
 
+    public void OnTimerBegin(float currentSec, float targetSec)
+    {
+        
+    }
+
     public void OnTimerProgress(float currentSec, float targetSec)
     {
         text.text = $"{currentSec:0}";

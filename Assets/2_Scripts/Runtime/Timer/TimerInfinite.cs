@@ -1,11 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Timers;
+﻿using System.Collections;
 using UnityEngine;
 
-public class TimerSimple : TimerBase
+public class TimerInfinite : TimerBase
 {
+    private WaitForSeconds wfs = new WaitForSeconds(0.1f);
+    
     private IEnumerator _coTimer;
 
     private void OnDisable()
@@ -49,13 +48,15 @@ public class TimerSimple : TimerBase
     {
         _currentSec = _targetSec;
 
+        Callback(x => x.OnTimerBegin(_currentSec, _targetSec));
+        
         while (_currentSec > 0)
         {
             Callback(x => x.OnTimerProgress(_currentSec, _targetSec));
             
             _currentSec -= 0.1f;
-            
-            yield return new WaitForSeconds(0.1f);
+
+            yield return wfs;
         }
 
         _currentSec = 0;
@@ -63,5 +64,7 @@ public class TimerSimple : TimerBase
         Callback(x => x.OnTimerComplete(_currentSec, _targetSec));
 
         _coTimer = null;
+        
+        BeginMethod();
     }
 }

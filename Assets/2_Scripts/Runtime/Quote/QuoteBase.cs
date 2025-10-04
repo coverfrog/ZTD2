@@ -5,31 +5,20 @@ using UnityEngine;
 
 public abstract class QuoteBase : MonoBehaviour
 {
-    public delegate void OnReQuoteDelegate(List<QuoteItemSo> quotes);
+    public delegate void OnReQuoteDelegate(List<QuoteSo> quotes);
     
     public OnReQuoteDelegate OnReQuote;
     
-    private List<QuoteItemSo> _quoteItemSoList;
+    private List<QuoteSo> _quoteItemSoList;
     
     private bool _isInitialized;
 
-    public List<QuoteItemSo> ItemSoList
-    {
-        get
-        {
-            if (!_isInitialized)
-                Initialize();
-            
-            return _quoteItemSoList;
-        }
-    }
-    
     public virtual void ReQuote()
     {
         if (!_isInitialized)
             Initialize();
         
-        foreach (QuoteItemSo so in _quoteItemSoList)
+        foreach (QuoteSo so in _quoteItemSoList)
         {
             so.ReQuote();
         }
@@ -42,8 +31,8 @@ public abstract class QuoteBase : MonoBehaviour
         if (_isInitialized) 
             return;
         
-        _quoteItemSoList = Resources.LoadAll<QuoteItemSo>("Quote")
-            .Select(x => x.Clone() as QuoteItemSo)
+        _quoteItemSoList = Resources.LoadAll<QuoteSo>("Quote")
+            .Select(x => x.Clone() as QuoteSo)
             .ToList();
     }
 

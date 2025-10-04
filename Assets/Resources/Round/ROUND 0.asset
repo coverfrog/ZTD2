@@ -9,16 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 473df7de70724116be5acfa98ed790d7, type: 3}
-  m_Name: STAT SO Mp
+  m_Script: {fileID: 11500000, guid: 3fc7b00437124939a7ceecbbc9a69d5e, type: 3}
+  m_Name: ROUND 0
   m_EditorClassIdentifier: 
   _id: -1
   _icon: {fileID: 0}
   _codeName: 
   _displayName: 
   _description: 
-  _statType: 1
-  _isPercentType: 0
-  _defaultValue: 100
-  _minValue: 0
-  _maxValue: 100
+  _targetSec: 3
+  _roundEvents: []
+  references:
+    version: 2
+    RefIds: []

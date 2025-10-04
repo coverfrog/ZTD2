@@ -17,6 +17,7 @@ MonoBehaviour:
   _codeName: Bee
   _displayName: Bee
   _description: 
+  _item: {fileID: 11400000, guid: c1281a8e00f3167419682145e1f12cf8, type: 2}
   _defaultValue: 20
   _minValue: 10
   _maxValue: 100

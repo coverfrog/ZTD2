@@ -5,38 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6255fe5-07b6-4e4e-9218-578ba90efbf0" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/Interface/ITimerCallback.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ZTD2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZTD2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1_Scenes/0_Temp.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1_Scenes/0_Temp.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/1_Scenes/3_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1_Scenes/3_Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Quote/QuoteBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Quote/QuoteBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Quote/QuoteItemSo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Quote/QuoteSo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Quote/QuoteItemSo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Quote/QuoteSo.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEventRepeat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEventRepeat.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEventSpawn.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundEventSpawn.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundSimple.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundSimple.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundSo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Round/RoundSo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/ITimerCallback.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/ITimerCallback.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/Interface/ITimerCallback.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/Interface.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/Interface/ITimerCallback.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/ITimerCallback.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/Interface/ITimerCallback.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/ITimerCallback.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/TimerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/TimerBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3_Input.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3_Input/InputSystem_Actions.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3_Input/InputSystem_Actions.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/4_So.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/4_So/Round.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/4_So/Round/Round 0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/4_So/Round/Round 0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/4_So/Round/Round 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/4_So/Round/Round 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/TimerSimple.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/Timer/TimerSimple.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/UI/UIQuote.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/UI/UIQuote.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/UI/UIQuoteElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Runtime/UI/UIQuoteElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_Scripts/Test/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scripts/Test/Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/4_Prefabs/UI Quote Element (0).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/4_Prefabs/UI Quote Element (0).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quote/Quote Bee.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quote/Quote Bee.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quote/Quote Caw.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quote/Quote Caw.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quote/Quote Chicken.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quote/Quote Chicken.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Round/ROUND SO 0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Round/ROUND SO 0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Stat/STAT SO Hp.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Stat/STAT SO Hp.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Stat/STAT SO Mp.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Stat/STAT SO Mp.asset.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +158,8 @@
       <workItem from="1759471162438" duration="9023000" />
       <workItem from="1759547966239" duration="1421000" />
       <workItem from="1759559700620" duration="20233000" />
+      <workItem from="1759593565034" duration="415000" />
+      <workItem from="1759605600452" duration="6055000" />
     </task>
     <servers />
   </component>

@@ -4,9 +4,8 @@ using UnityEngine;
 
 public abstract class TimerBase : MonoBehaviour
 {
-    [Header("[ Values ]")]
-    [SerializeField, Min(0)] protected float _targetSec;
-    [SerializeField, Min(0)] protected float _currentSec;
+    protected float _targetSec;
+    protected float _currentSec;
 
     private List<ITimerCallback> _timerCallbackList = new();
 
@@ -28,12 +27,12 @@ public abstract class TimerBase : MonoBehaviour
     {
         _targetSec = targetSec;
         
-        Begin();
+        BeginMethod();
     }
 
     public abstract void Stop();
     
-    protected abstract void Begin();
+    protected abstract void BeginMethod();
     
     public abstract void Clear();
 

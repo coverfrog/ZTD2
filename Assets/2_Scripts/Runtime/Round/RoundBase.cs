@@ -64,6 +64,11 @@ public abstract class RoundBase : MonoBehaviour, ITimerCallback
         action?.Invoke();
     }
 
+    public void OnTimerBegin(float currentSec, float targetSec)
+    {
+        
+    }
+
     public abstract void OnTimerProgress(float currentSec, float targetSec);
 
     public abstract void OnTimerComplete(float currentSec, float targetSec);

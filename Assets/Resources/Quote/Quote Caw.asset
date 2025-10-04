@@ -17,6 +17,7 @@ MonoBehaviour:
   _codeName: Caw
   _displayName: Caw
   _description: 
+  _item: {fileID: 11400000, guid: 5ff05169e5b7e2241a834fbb745f6a1e, type: 2}
   _defaultValue: 30
   _minValue: 10
   _maxValue: 100
